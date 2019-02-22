@@ -1,0 +1,11 @@
+def main():
+    
+
+if __name__ == '__main__':
+   name = input("Give me your name: ")
+   age = int(input("Give me your age: "))
+   vik = 100 - age + 2019
+   vik = str(vik)
+
+
+   print("Your name is " + name + " Your age wil be 100 in " + vik )
